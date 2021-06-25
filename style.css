@@ -8,9 +8,6 @@
     color: white;
 }
 
-.col-md-6 {
-    z-index: 1;
-}
 .spacing {
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
@@ -35,6 +32,12 @@ footer p a{
     }
 }
 
+@media (max-width: 520px) {
+    .col-md-8 p {
+      margin-left: 0px;
+    }
+}
+
 
 @media (max-width: 520px) {
     .carousel {
@@ -47,4 +50,18 @@ footer p a{
     .user {
         margin-left: 50px;
     }
+}
+
+
+@media (max-width: 360px) {
+    .align-self-center h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 360px) {
+    footer p a{
+        margin: 5px 10px;
+    }
+    
 }
