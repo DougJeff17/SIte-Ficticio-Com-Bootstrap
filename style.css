@@ -8,6 +8,9 @@
     color: white;
 }
 
+.col-md-6 {
+    z-index: 1;
+}
 .spacing {
     padding: 60px 0;
     border-bottom: 1px solid #e5e5e5;
